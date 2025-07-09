@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/bd7816af1c2f4099bdccef13735b0e95/artifacts
+end_time: 1751973427889
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd7816af1c2f4099bdccef13735b0e95
+run_name: tasteful-deer-941
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751973427136
+status: 3
+tags: []
+user_id: DhruvParikh

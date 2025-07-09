@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/274175710574837362/7ab087deeb904f2b8982441e4a385b59/artifacts
+end_time: 1751973000874
+entry_point_name: ''
+experiment_id: '274175710574837362'
+lifecycle_stage: active
+run_id: 7ab087deeb904f2b8982441e4a385b59
+run_name: dhruvparikh
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751973000802
+status: 3
+tags: []
+user_id: DhruvParikh

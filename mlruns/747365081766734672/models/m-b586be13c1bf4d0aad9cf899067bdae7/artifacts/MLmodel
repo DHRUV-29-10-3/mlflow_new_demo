@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/DhruvParikh/OneDrive%20-%20Injala/Documents/campusx_langchain/langchain/langchain/mlflow/mlruns/747365081766734672/models/m-b586be13c1bf4d0aad9cf899067bdae7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.16
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.1
+model_id: m-b586be13c1bf4d0aad9cf899067bdae7
+model_size_bytes: 853739
+model_uuid: m-b586be13c1bf4d0aad9cf899067bdae7
+prompts: null
+run_id: 555fbd94e0464c64854b8835f2663f3f
+utc_time_created: '2025-07-08 18:13:48.813362'

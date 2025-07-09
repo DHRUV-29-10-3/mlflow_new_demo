@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/8d7e39435ee149a3a7686723cef02155/artifacts
+end_time: 1751974417716
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d7e39435ee149a3a7686723cef02155
+run_name: handsome-colt-544
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751974408436
+status: 3
+tags: []
+user_id: DhruvParikh

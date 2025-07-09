@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/336d9f946d0f4660863cd921b82b4d21/artifacts
+end_time: 1751973978759
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 336d9f946d0f4660863cd921b82b4d21
+run_name: stately-hog-536
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751973977546
+status: 3
+tags: []
+user_id: DhruvParikh

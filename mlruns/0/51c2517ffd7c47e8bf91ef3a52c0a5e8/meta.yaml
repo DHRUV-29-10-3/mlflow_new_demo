@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/51c2517ffd7c47e8bf91ef3a52c0a5e8/artifacts
+end_time: 1751971946552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 51c2517ffd7c47e8bf91ef3a52c0a5e8
+run_name: zealous-auk-264
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751971945962
+status: 3
+tags: []
+user_id: DhruvParikh

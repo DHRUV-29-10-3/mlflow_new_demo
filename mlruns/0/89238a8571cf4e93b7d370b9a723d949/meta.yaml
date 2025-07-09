@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/89238a8571cf4e93b7d370b9a723d949/artifacts
+end_time: 1751973359514
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89238a8571cf4e93b7d370b9a723d949
+run_name: capricious-doe-280
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751973358847
+status: 3
+tags: []
+user_id: DhruvParikh

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/DhruvParikh/OneDrive%20-%20Injala/Documents/campusx_langchain/langchain/langchain/mlflow/mlruns/747365081766734672/models/m-b586be13c1bf4d0aad9cf899067bdae7/artifacts
+creation_timestamp: 1751998428701
+experiment_id: '747365081766734672'
+last_updated_timestamp: 1751998438013
+model_id: m-b586be13c1bf4d0aad9cf899067bdae7
+model_type: null
+name: random forest
+source_run_id: 555fbd94e0464c64854b8835f2663f3f
+status: 2
+status_message: null
