@@ -31,18 +31,37 @@ max_depth = 15
 mlflow.set_experiment("iris-dt")
 
 
-with mlflow.start_run(run_name="dhruvparikh"): 
-    dt = DecisionTreeClassifier(max_depth = max_depth)
-    dt.fit(X_train, y_train)    
+with mlflow.start_run(): 
+    rf = RandomForestClassifier(max_depth = max_depth, n_estimators=n_estimators, random_state=42)
+    rf.fit(X_train, y_train)    
 
-    y_pred = dt.predict(X_test)
+    y_pred = rf.predict(X_test)
 
     accuracy = accuracy_score(y_test, y_pred) 
 
     mlflow.log_metric("accuracy", accuracy) 
+    mlflow.log_param("n_estimators", n_estimators) 
     mlflow.log_param("max_depth", max_depth)
 
+    cm = confusion_matrix(y_test, y_pred) 
+    plt.figure(figsize = (6,6)) 
+    sns.heatmap(cm, annot = True, cmap = "Blues")
+    plt.ylabel("Actual") 
+    plt.xlabel("Predicted") 
+    plt.title("confusion matrix") 
+    plt.savefig("Confusion_matrix.png") 
+
+
+    mlflow.log_artifact("Confusion_matrix.png")
+    mlflow.log_artifact(__file__)
+    mlflow.sklearn.log_model(rf, "random forest")
+
+    mlflow.set_tag("author", "dhruv") 
+    mlflow.set_tag("model", "random-forest")
+
+
     print("accuracy", accuracy) 
+
 
 
 
